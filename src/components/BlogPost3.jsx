@@ -1,4 +1,5 @@
 import { Calendar, User, ArrowLeft, Phone, Droplets } from 'lucide-react';
+import blogImg from '../assets/limpeza-caixa-gordura.png';
 
 const BlogPost3 = () => {
   const whatsappNumber = "5531993173020";
@@ -39,12 +40,12 @@ const BlogPost3 = () => {
             </div>
           </div>
 
-          <div className="h-64 bg-gradient-to-br from-green-500 to-blue-600 rounded-xl flex items-center justify-center mb-8">
-            <div className="text-white text-center">
-              <Droplets size={48} className="mx-auto mb-4" />
-              <h2 className="text-2xl font-bold mb-2">Caixa de Gordura</h2>
-              <p className="text-green-200">Manutenção e Limpeza Profissional</p>
-            </div>
+          <div className="h-64 bg-gray-100 rounded-xl overflow-hidden mb-8">
+            <img 
+              src={blogImg} 
+              alt="Limpeza de Caixa de Gordura"
+              className="w-full h-full object-cover"
+            />
           </div>
         </header>
 

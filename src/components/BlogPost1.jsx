@@ -1,4 +1,5 @@
 import { Calendar, User, ArrowLeft, Phone } from 'lucide-react';
+import blogImg from '../assets/desentupimento-ralo.png';
 
 const BlogPost1 = () => {
   const whatsappNumber = "5531993173020";
@@ -39,11 +40,12 @@ const BlogPost1 = () => {
             </div>
           </div>
 
-          <div className="h-64 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center mb-8">
-            <div className="text-white text-center">
-              <h2 className="text-2xl font-bold mb-2">Prevenção de Entupimentos</h2>
-              <p className="text-blue-200">Dicas da Desentupidora Hidro Urgente</p>
-            </div>
+          <div className="h-64 bg-gray-100 rounded-xl overflow-hidden mb-8">
+            <img 
+              src={blogImg} 
+              alt="Prevenção de Entupimentos"
+              className="w-full h-full object-cover"
+            />
           </div>
         </header>
 

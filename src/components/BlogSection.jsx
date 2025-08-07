@@ -61,11 +61,12 @@ const BlogSection = () => {
               className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
             >
               {/* Post Image */}
-              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center">
-                <div className="text-white text-center p-6">
-                  <h3 className="text-lg font-semibold mb-2">Desentupidora</h3>
-                  <p className="text-blue-200">Hidro Urgente</p>
-                </div>
+              <div className="h-48 bg-gray-100 overflow-hidden">
+                <img 
+                  src={post.image} 
+                  alt={post.title}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
               </div>
 
               {/* Post Content */}
