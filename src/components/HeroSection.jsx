@@ -1,5 +1,5 @@
 import { Phone, CheckCircle, Clock, Shield, Users } from 'lucide-react';
-import logoHidroUrgente from '../assets/logo-hidro-urgente-final.png';
+import heroBackground from '../assets/hero-background.png';
 
 const HeroSection = () => {
   const whatsappNumber = "5531993173020";
@@ -9,7 +9,7 @@ const HeroSection = () => {
       id="inicio" 
       className="relative min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white flex items-center"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(${logoHidroUrgente})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(${heroBackground})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
@@ -42,7 +42,7 @@ const HeroSection = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-2xl mx-auto">
-            Ligue agora mesmo!
+            Desentupimento Urgente - Atendimento 24 Horas
           </p>
 
           {/* CTA Buttons */}
