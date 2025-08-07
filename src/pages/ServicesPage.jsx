@@ -1,10 +1,10 @@
 import { Droplets, Wrench, Trash2, Toilet, ChefHat, Zap, Phone, Clock, Shield, CheckCircle } from 'lucide-react';
-import servicoVaso from '../assets/servico-vaso.png';
-import servicoRalo from '../assets/servico-ralo.png';
-import servicoCano from '../assets/servico-cano.png';
-import servicoEsgoto from '../assets/servico-esgoto.png';
-import servicoPia from '../assets/servico-pia.png';
-import servicoCaixaGordura from '../assets/servico-caixa-gordura.png';
+import servicoRalo from '../assets/desentupimento-ralo.png';
+import servicoCano from '../assets/desentupimento-cano.png';
+import servicoEsgoto from '../assets/desentupimento-esgoto.png';
+import servicoVaso from '../assets/desentupimento-vaso.png';
+import servicoPia from '../assets/desentupimento-pia.png';
+import servicoCaixaGordura from '../assets/limpeza-caixa-gordura.png';
 
 const ServicesPage = () => {
   const whatsappNumber = "5531993173020";

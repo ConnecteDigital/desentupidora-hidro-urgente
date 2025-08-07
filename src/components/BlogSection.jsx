@@ -1,4 +1,7 @@
 import { Calendar, User, ArrowRight, Clock } from 'lucide-react';
+import blogImg1 from '../assets/desentupimento-ralo.png';
+import blogImg2 from '../assets/desentupimento-cano.png';
+import blogImg3 from '../assets/limpeza-caixa-gordura.png';
 
 const BlogSection = () => {
   const whatsappNumber = "5531993173020";
@@ -11,7 +14,7 @@ const BlogSection = () => {
       date: "Janeiro 2025",
       author: "Equipe Hidro Urgente",
       readTime: "5 min",
-      image: "/api/placeholder/400/250",
+      image: blogImg1,
       slug: "como-prevenir-entupimentos-em-casa"
     },
     {
@@ -21,7 +24,7 @@ const BlogSection = () => {
       date: "Janeiro 2025",
       author: "Equipe Hidro Urgente",
       readTime: "4 min",
-      image: "/api/placeholder/400/250",
+      image: blogImg2,
       slug: "sinais-que-precisa-desentupidora"
     },
     {
@@ -31,7 +34,7 @@ const BlogSection = () => {
       date: "Janeiro 2025",
       author: "Equipe Hidro Urgente",
       readTime: "6 min",
-      image: "/api/placeholder/400/250",
+      image: blogImg3,
       slug: "limpeza-caixa-de-gordura"
     }
   ];
