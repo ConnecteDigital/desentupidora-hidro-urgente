@@ -26,7 +26,7 @@ const Header = ({ currentPage, setCurrentPage }) => {
               <img 
                 src={logoHidroUrgente} 
                 alt="Logo Desentupidora Hidro Urgente" 
-                className="w-12 h-12 md:w-16 md:h-16 rounded-full object-cover shadow-md"
+                className="w-auto h-12 md:h-16 object-contain"
               />
               <h1 className="text-xl md:text-3xl font-bold text-blue-600">
                 Desentupidora Hidro Urgente

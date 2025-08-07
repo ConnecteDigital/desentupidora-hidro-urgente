@@ -3,7 +3,7 @@ import blogImg1 from '../assets/desentupimento-ralo.png';
 import blogImg2 from '../assets/desentupimento-cano.png';
 import blogImg3 from '../assets/limpeza-caixa-gordura.png';
 
-const BlogSection = () => {
+const BlogSection = ({ onReadMore }) => {
   const whatsappNumber = "5531993173020";
 
   const blogPosts = [
@@ -96,13 +96,13 @@ const BlogSection = () => {
                 </div>
 
                 {/* Read More Button */}
-                <a
-                  href={`#blog-post-${post.id}`}
+                <button
+                  onClick={() => onReadMore(post.id)}
                   className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold transition-colors"
                 >
                   Ler Artigo
                   <ArrowRight size={16} className="ml-2" />
-                </a>
+                </button>
               </div>
             </article>
           ))}

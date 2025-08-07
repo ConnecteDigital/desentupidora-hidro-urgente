@@ -27,10 +27,7 @@ const Footer = () => {
                   (31) 9317-3020
                 </a>
               </div>
-              <div className="flex items-center space-x-2">
-                <MapPin size={16} className="text-blue-400" />
-                <span className="text-gray-300">Belo Horizonte e Região Metropolitana</span>
-              </div>
+              
               <div className="flex items-center space-x-2">
                 <Clock size={16} className="text-blue-400" />
                 <span className="text-gray-300">Atendimento 24 horas - Todos os dias</span>
@@ -91,9 +88,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
           <p>&copy; 2025 Desentupidora Hidro Urgente. Todos os direitos reservados.</p>
-          <p className="mt-2 text-sm">
-            Atendimento 24 horas em Belo Horizonte e Região Metropolitana
-          </p>
+          
         </div>
       </div>
     </footer>
