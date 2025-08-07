@@ -1,6 +1,6 @@
 import { Phone, Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import logoHidroUrgente from '../assets/logo-hidro-urgente.png';
+import logoHidroUrgente from '../assets/logo-hidro-urgente-final.png';
 
 const Header = ({ currentPage, setCurrentPage }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,34 +17,6 @@ const Header = ({ currentPage, setCurrentPage }) => {
 
   return (
     <>
-      {/* Top Bar */}
-      <div className="bg-blue-600 text-white py-2 px-4">
-        <div className="container mx-auto flex justify-between items-center text-sm">
-          <div className="flex items-center space-x-4">
-            <span>Atendimento 24 Horas</span>
-            <span>•</span>
-            <span>Orçamento Gratuito</span>
-          </div>
-          <div className="flex items-center space-x-4">
-            <a
-              href="tel:31993173020"
-              className="flex items-center hover:text-blue-200 transition-colors"
-            >
-              <Phone size={16} className="mr-1" />
-              (31) 9317-3020
-            </a>
-            <a
-              href={`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Olá! Preciso de atendimento de desentupimento. Gostaria de um orçamento.`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-green-500 hover:bg-green-600 px-3 py-1 rounded text-white font-medium transition-colors"
-            >
-              WhatsApp
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* Main Header */}
       <header className="bg-white shadow-lg sticky top-0 z-50">
         <div className="container mx-auto px-4">

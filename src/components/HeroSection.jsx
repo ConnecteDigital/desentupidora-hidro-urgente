@@ -1,5 +1,5 @@
 import { Phone, CheckCircle, Clock, Shield, Users } from 'lucide-react';
-import logoHidroUrgente from '../assets/logo-hidro-urgente.png';
+import logoHidroUrgente from '../assets/logo-hidro-urgente-final.png';
 
 const HeroSection = () => {
   const whatsappNumber = "5531993173020";
